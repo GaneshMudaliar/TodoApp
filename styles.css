@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(9, 52, 66);
+  
+}
+
+.container h2{
+  color: white;
+  margin-bottom:20px;
+}
+
+/* todo adding section */
+
+.todo-list {
+  border: 2px solid white;
+  height: 100px;
+  width: 520px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.task-input {
+  width: 250px;
+  padding: 5px;
+  height: 30px;
+  outline: 0;
+  border-radius: 5px;
+  border: 2px solid gray;
+
+}
+
+.date-input {
+  width: 120px;
+  padding: 5px;
+  height: 30px;
+  outline: 0;
+  border-radius: 5px;
+  border: 2px solid gray;
+
+}
+.add-btn {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(95, 28, 158);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* task */
+
+
+.task {
+  border: 2px solid white;
+  margin-top: 20px;
+  height: 400px;
+  width: 520px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.task ul {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 20px;
+ width: 480px;
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ 
+
+}
+.task ul ion-icon {
+  color: rgb(95, 28, 158);
+  cursor: pointer;
+}
